@@ -68,4 +68,43 @@ function App() {
   );
 }
 
-export default App;
+export default App;.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.Panchang-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Panchang-section {
+  margin: 0 20px;
+}
+
+.App-footer {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.User-input {
+  margin-top: 10px;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
